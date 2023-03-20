@@ -1,0 +1,77 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    flex: 2 1 auto;
+    background-image: url("https://muralsyourway.vtexassets.com/arquivos/ids/242208/MMEGCC1065.jpg?v=638019734905270000");
+    position: relative;
+    text-align: center;
+  }
+  
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+main {
+    background-color: white;
+    text-align: center;
+    align-items: center;
+}
+
+h1 {
+    background-color: white;
+    text-align: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+#name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+  }
+
+#capital {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+#continents {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+#languages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+#flag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+#population {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+form {
+    height: 100px;
+}
+
