@@ -29,17 +29,16 @@ $.ajax({
 )
 }
 
+
+
 function render() {
     $name.text(countryData.name.common)
     $capital.text(countryData.capital)
     $continents.text(countryData.continents)
     $flag.text(countryData.flag)
-    $languages.text(countryData.languages)
     $population.text(countryData.population)
+    Object.values(countryData.languages).forEach((lang)=>{
+        const newLang = $(`<li>${lang}</li>`)
+        $languages.append(newLang)
+    })
 }
-
-
-// to make languages populate:
-// 1. Have a dom element created on the html page ready to receive those newly found languages.
-// 2. Grab every key or value in the language object(it’s up to you)
-// 3. Use a method on the result of the above step  to append each key to the dom element created on the html page
