@@ -42,3 +42,4 @@ function render() {
         $languages.append(newLang)
     })
 }
+

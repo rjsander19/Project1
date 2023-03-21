@@ -26,7 +26,8 @@ h1 {
     background-color: white;
     text-align: center;
     align-items: center;
-    font-size: 40px;
+    font-size: 38px;
+
 }
 
 #name {
@@ -52,6 +53,7 @@ h1 {
 
 #languages {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: white;
@@ -71,7 +73,8 @@ h1 {
     background-color: white;
 }
 
-form {
-    height: 100px;
-}
 
+input[type=text] {
+    text-align: center;
+    margin: 10px;
+  }
