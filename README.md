@@ -14,7 +14,6 @@ A simple web application that allows the user to search for a country by name, a
 
 ## Getting Started:
 
-[GitHubLink] <https://github.com/rjsander19/Project1.git>
 
 ## Future Enhancements:
 - I would like to see the whole page refresh in the future and display in the background a picture of the country or its flag
