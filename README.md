@@ -16,7 +16,7 @@ A simple web application that allows the user to search for a country by name, a
 
 
 ## Getting Started:
-<https://github.com/rjsander19/Project1.git>
+<https://project1-chi-five.vercel.app/>
 
 ## Future Enhancements:
 - I would like to see the whole page refresh in the future and display in the background a picture of the country or its flag
